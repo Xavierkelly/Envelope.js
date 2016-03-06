@@ -4,7 +4,7 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 ### Example:
 ![alt tag](http://kelly.tech/wp-content/uploads/2016/03/Expandable-tabs.png)
 
-### What need to include:
+### External styling sheets that are needed:
 - Get Bootstrap
 - Jquery
 - Google Font
