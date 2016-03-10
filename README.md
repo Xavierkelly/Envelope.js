@@ -11,7 +11,7 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 - Jquery
 - Google Font
 
-### Class Styling
+### How to Change/Update Class Styling
 
 ```
 	/* The Half Circle Styling */
