@@ -11,7 +11,17 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 - Jquery
 - Google Font
 
-### Dynamic Styling
+### Class Styling
+
+```
+	.circle { height:20px; width:40px;margin:0px;padding:0px;border-radius:0 0 90px 90px;-moz-border-radius: 0 0 90px 90px;-webkit-border-radius:0 0 90px 90px ;background:#7cc7ff;border-color:#7cc7ff;}
+	.container { padding:100px 20px 40px;background-color:#f1f1f1;}
+	.hiddenTab { padding:40px;background-color:#7cc7ff;color:#ffffff;display:none}
+	.hiddingTabButton { background-color:#ffffff; color:#7cc7ff; margin-top:20px;-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);}
+	.visableTab { padding:0px 40px 40px;margin-top:20px;background-color:#5aaafa;margin:0px;border:0px;border-radius: 0px 0px 3px 3px;}
+	.visableTabButton { padding:5px 40px;background-color:#ffffff; color:#5aaafa; margin-top:20px;-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);}
+```
+### How to Change Dynamic Styling With JavaScript
 
 ```javascript
 function(){
