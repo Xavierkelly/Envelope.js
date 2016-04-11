@@ -7,9 +7,9 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 [View Demo](http://Envelope.Kelly.Tech) 
 
 ### External styling sheets that are needed:
-- Get Bootstrap
-- Jquery
-- Google Font
+- [Get Bootstrap](http://getbootstrap.com/)
+- [Jquery](https://jquery.com/)
+- [Google Font](https://www.google.com/fonts)
 
 ### How to Change/Update Class Styling
 
