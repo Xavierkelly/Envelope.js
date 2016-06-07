@@ -27,7 +27,7 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 	/* The Visable Tab Button Styling */
 	.visableTabButton { padding:5px 40px;background-color:#ffffff; color:#5aaafa; margin-top:20px;-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);}
 ```
-### HTML
+### HTML Structure
 ```
 <div class="container">
 	<div class="col-md-4">
