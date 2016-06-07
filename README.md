@@ -27,6 +27,65 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 	/* The Visable Tab Button Styling */
 	.visableTabButton { padding:5px 40px;background-color:#ffffff; color:#5aaafa; margin-top:20px;-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);}
 ```
+### HTML
+```
+<div class="container">
+	<div class="col-md-4">
+		<div id="box">
+			<div id="show" class="hiddenTab">
+				<!-- Hidding Tab 1 Description  Starts -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque, augue eget facilisis laoreet, lorem erat euismod orci, eu facilisis orci lectus eu metus. Morbi.</p>
+				<!-- Hidding Tab 1 Description  Ends -->
+				<!-- Hidding Tab 1 Button  Starts -->
+				<button class="btn hiddingTabButton" >Download</button>
+				<!-- Hidding Tab 1 Description  Ends -->
+			</div>
+			<div class="panel panel default visableTab" id="boxx1">
+				<center class="noSpace"><div class="circle"></div>
+					<h3 id="header1">Lorem Ipsum Dolor</h3>
+					<button class="btn visableTabButton" id="button"><b>Learn More</b></button>
+				</center>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div id="box1">
+			<div id="show1" class="hiddenTab">
+				<!-- Hidding Tab 2 Description  Starts -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque, augue eget facilisis laoreet, lorem erat euismod orci, eu facilisis orci lectus eu metus. Morbi.</p>
+				<!-- Hidding Tab 2 Description  Ends -->
+				<!-- Hidding Tab 2 Button  Starts -->
+				<button class="btn hiddingTabButton" >Download</button>
+				<!-- Hidding Tab 2 Description  Ends -->
+			</div>
+			<div class="panel panel default visableTab" id="boxx2">
+				<center class="noSpace"><div class="circle"></div>
+					<h3 id="header2">Lorem Ipsum Dolor</h3>
+					<button class="btn visableTabButton" id="button1"><b>Learn More</b></button>
+				</center>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div id="box2">
+			<div id="show2" class="hiddenTab">
+				<!-- Hidding Tab 3 Description  Starts -->
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque, augue eget facilisis laoreet, lorem erat euismod orci, eu facilisis orci lectus eu metus. Morbi.</p>
+				<!-- Hidding Tab 3 Description  Ends -->
+				<!-- Hidding Tab 3 Button  Starts -->
+				<button class="btn hiddingTabButton" >Download</button>
+				<!-- Hidding Tab 3 Description  Ends -->
+			</div>
+			<div class="panel panel default visableTab" id="boxx3">
+				<center class="noSpace"><div class="circle"></div>
+					<h3 id="header3">Lorem Ipsum Dolor</h3>
+					<button class="btn visableTabButton" id="button2"><b>Learn More</b></button>
+				</center>
+			</div>
+		</div>
+	</div>
+</div>
+```
 ### How to Change Dynamic Styling With JavaScript
 
 ```javascript
