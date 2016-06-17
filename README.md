@@ -13,7 +13,7 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 
 ### How to Change/Update Class Styling
 
-```html 
+```css 
 	/* The Half Circle Styling */
 	.circle { height:20px; width:40px;margin:0px;padding:0px;border-radius:0 0 90px 90px;-moz-border-radius: 0 0 90px 90px;-webkit-border-radius:0 0 90px 90px ;background:#7cc7ff;border-color:#7cc7ff;}
 	/* The Container Styling */
