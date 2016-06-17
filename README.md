@@ -13,7 +13,7 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 
 ### How to Change/Update Class Styling
 
-```
+```html 
 	/* The Half Circle Styling */
 	.circle { height:20px; width:40px;margin:0px;padding:0px;border-radius:0 0 90px 90px;-moz-border-radius: 0 0 90px 90px;-webkit-border-radius:0 0 90px 90px ;background:#7cc7ff;border-color:#7cc7ff;}
 	/* The Container Styling */
@@ -28,7 +28,7 @@ A set of expandable envelope tabs that are using HTML, CSS, JavaScript and JQuer
 	.visableTabButton { padding:5px 40px;background-color:#ffffff; color:#5aaafa; margin-top:20px;-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);}
 ```
 ### HTML Structure
-```
+```html 
 <div class="container">
 	<div class="col-md-4">
 		<div id="box">
